@@ -1,0 +1,7 @@
+{
+  "name": "AlWerd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
