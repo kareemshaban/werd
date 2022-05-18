@@ -1,0 +1,38 @@
+ion-content {
+    --background: url('../../../assets/images/bg.png') no-repeat center center / cover;
+
+}
+.hijiri_date {
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: var(--ion-color-primary);
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 70%;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.tag {
+    position: absolute;
+    top: calc(50% + 100px);
+    text-align: center;
+    left: 0;
+    right: 0;
+    color: var(--ion-color-primary);
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,56 @@
+.spinner{
+    color: var(--ion-color-primary);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    --background: transparent;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+}
+.col1{
+    display: flex;
+    justify-content: center;
+    border-left: solid 1px #000;
+}
+.col2 {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: absolute;
+    top: calc(5% + 160px);
+    width: 90%;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 15px;
+    background: antiquewhite;
+}
+.label{
+    color: #000;
+    text-align: right;
+    display: block;
+    margin: auto;
+    font-size: 10pt;
+}

@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">الفِهِرَّسَّ  </ion-title>
+    <ion-icon name="close-circle" class="close" (click)="dismiss()" slot="end"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="row" >
+    <div class="column" *ngFor="let item of data  let i = index " size = "2"  (click)="goTo(item.index)">
+      <ion-label> {{item.name}}</ion-label>
+    </div>
+    </div>
+</ion-content>

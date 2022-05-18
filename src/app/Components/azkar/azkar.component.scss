@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'rahma';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+  
+  @font-face {
+    font-family: 'rahma';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+  
+  @font-face {
+    font-family: 'rahma';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+  @font-face {
+    font-family: 'rahma';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+
+ion-list-header{
+    padding: 5px; 
+    width: 95%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #DB4524;
+    font-family: 'rahma', serif ;
+}
+ion-item {
+    direction: rtl;
+    width: 95%;
+    display: block;
+    margin: 10px auto;
+    background: #fff;
+    background-color: #fff;
+    --background: transparent;
+    font-family: "rahma", serif;
+    border-right-style: solid;
+    border-right-width: 19px;
+    border-color: #DB4524;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    opacity: .9;
+}
+ion-label {
+    font-family: 'rahma', serif !important;
+    color: #000;
+    font-size: 12px  !important;
+}
+ion-icon{
+    color: #DB4524;
+}
+ion-content {
+    --background: url('../../../assets/images/bg.png') no-repeat center center / cover;
+
+}
+ion-list {
+    background-color: transparent;
+    background: transparent;
+    --background: transparent;
+}

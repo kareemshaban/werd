@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'rahma';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+  
+  @font-face {
+    font-family: 'rahma';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+  
+  @font-face {
+    font-family: 'rahma';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+  @font-face {
+    font-family: 'rahma';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../../assets/fonts/arFontLib.ttf');
+  }
+
+ion-list-header{
+    padding: 5px; 
+    width: 95%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #DB4524;
+    font-family: 'rahma', serif ;
+}
+ion-item {
+    direction: rtl;
+    width: 95%;
+    display: block;
+    margin: auto;
+    background: transparent;
+    background-color: transparent;
+    --background: transparent;
+    font-family: 'rahma', serif ;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: lightgray;
+    border-radius: 15px;
+}
+ion-label {
+    font-family: 'rahma', serif !important;
+    color: #000;
+    font-size: 12px;
+}

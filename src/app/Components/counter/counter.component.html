@@ -1,0 +1,9 @@
+<ion-content>
+  <ion-label class="display">{{currentCount}}</ion-label>
+  <ion-icon name="refresh" class="restet" (click)="resetCurrnCount()"></ion-icon>
+    <div class="counter_btn" (click)="countEvent()"></div>
+    <div class="total_row" id="btn">
+      <ion-icon name="sync" class="restet_total" (click)="resetTotalCount()"></ion-icon>
+      <ion-label class="total"> العدد الإجمالي : <span class="numeric"> {{totalCount}}</span></ion-label>
+    </div>
+</ion-content>

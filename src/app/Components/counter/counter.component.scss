@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'numiric';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../assets/fonts/JerseyM54-aLX9.ttf');
+  }
+
+.display {
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #ffddb0;
+    border-width: 2px;
+    text-align: center;
+    padding: 8px;
+    color: var(--ion-color-primary);
+    font-family: 'numiric', serif !important;
+    
+}
+.restet {
+    border-radius: 50%;
+    color: var(--ion-color-primary);;
+    background-color: #ffddb0;
+    font-size: 30px;
+    padding: 9px;
+    // float: right;
+    margin-right: 30px;
+}
+.counter_btn{
+    background-color: #ffddb0;
+    border-radius: 100%;
+    color: white;
+    width: 200px ;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    min-width:  200px;
+    min-height: 200px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+    background-position: center;
+    transition: background 0.8s;
+
+}
+.counter_btn:hover {
+    background: #ffddb0 radial-gradient(circle, transparent 1%, #ffddb0 1%) center/15000%;
+  }
+  .counter_btn:active {
+    background-color: #DFAE92;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+.total_row {
+    width: 100%;
+    display: flex;
+    padding-top: 8px;
+    // justify-content: center;
+   
+}
+.restet_total {
+    border-radius: 50%;
+    color: var(--ion-color-primary);
+    background-color: #ffddb0 ;
+    font-size: 30px;
+    padding: 9px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.total{
+    color: var(--ion-color-primary);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 14px;
+}
+.numeric{
+
+    color: var(--ion-color-primary);
+    font-family: 'numiric', serif !important;
+}
+span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+@keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }

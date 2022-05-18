@@ -1,0 +1,16 @@
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+
+      اعدادات التطبيق
+    </ion-list-header>
+
+    <ion-item lines="none">
+      <ion-label slot="start"> الاهتزاز</ion-label>
+      <ion-toggle slot="end" name="vibrate" [checked]="vibrat" (ionChange)="vibrate($event)"></ion-toggle>
+    </ion-item>
+
+    
+  </ion-list>
+
+</ion-content>

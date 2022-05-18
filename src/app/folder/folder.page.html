@@ -3,19 +3,23 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
+    <ion-title class="title">{{ folder }}</ion-title>
+    <ion-icon name="filter-circle" *ngIf="id === '3'" slot="end" class="icon-btn" 
+    (click)="openIndexing()"></ion-icon>
+    <ion-icon name="add-circle" *ngIf="id === '20'" slot="end" class="icon-btn" 
+    (click)="openTarget()"></ion-icon>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <app-home *ngIf="id === '1'" ></app-home>
+  <app-counter *ngIf="id === '2'"></app-counter>
+  <app-quraan *ngIf="id === '3'"></app-quraan>
+  <app-azkar *ngIf="id === '4'"></app-azkar>
+  <app-timing *ngIf="id === '5'"></app-timing>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  
+  <app-settings *ngIf="id === '7'"></app-settings>
+
 </ion-content>

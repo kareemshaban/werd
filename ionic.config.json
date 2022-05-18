@@ -1,7 +1,8 @@
 {
   "name": "AlWerd",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
